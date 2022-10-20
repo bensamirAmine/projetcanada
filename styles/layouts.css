@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto";
+}
+.assessement-container {
+    margin-top:-50px;
+}
+.assessement-cards{
+    border-radius: 15px !important;
+}
+.section-why{
+    width: 100%;
+    background-color:#202A3F;
+    /*background-color:#202A3F;*/
+    color: #fff;
+}
+.section-why h1{
+   font-size: 30px;
+}
+
+.section-title {
+    margin: 0;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.section-title h1 {
+    position: relative;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.section-title h1:before {
+    content: '';
+    background: #EC1E24;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -34px;
+    left: 50%;
+    margin-left: -5px;
+    z-index: 1;
+}
+.section-title span{
+    color: #EC1E24;
+}
+.section-title h1:after {
+    content: '';
+    background: #EC1E24;
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+
+
+.section-title-1 {
+    margin: 0;
+    padding-bottom: 20px;
+    
+}
+.section-title-1 h1 {
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.section-title-1 span{
+    color: #EC1E24;
+}
+
+
+/*news section*/
+
+.news-section-container{
+    background: #f8f8f8;
+}
+/*consultation section*/
+.consultation-contact-card{
+    border-radius: 15px !important;
+}
+
+/*accordion*/
+.accordion-item:nth-child(even){
+    margin-left: 5%
+}
+.accordion-item{
+    border-radius: 15px !important;
+    margin-bottom: 20px;
+    width:95%;
+    overflow: hidden;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    background-color:#202A3F;
+    color: #fff;
+}
+.footer .social-media-icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.footer .social-media-icons .social-media-icons__link{
+    font-size: 40px !important;
+    padding-left: 15px;
+    color: #fff;
+    text-decoration: none;
+    
+    font-weight: 500;
+}
+.footer .usefull-links{
+    
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    padding-bottom: 15px;
+    
+}
+.footer .usefull-links li {
+    padding-bottom: 5px !important;
+}
+.footer .usefull-links li a{
+    text-decoration: none;
+    color: #fff;
+ 
+    font-size:17px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 70px;
+    background-color:#000;
+}
+
+/*about us section*/
+.counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.countup{
+    font-size: 70px !important;
+    font-weight: bold !important;
+}
+.counter-item{
+    display:flex
+}
+
+.counter-item .text h2{
+    margin:0;
+    padding:0;
+    padding-left: 15px
+}
+.counter-item .plus{
+   /* color: #FF7F11;*/
+    color: #fff;
+}
+/*buttons*/
+.my-outline-button{
+    transition: .9s !important;
+}
+
+/* news section*/
+.carousel-item{
+    height:80vh;
+    width: 100%;
+    
+    
+}
+.carousel{
+    border-radius: 10px !important;
+    overflow: hidden;
+    transition: .9s !important;
+}
+.carousel .image{
+    transition: .9s !important;
+}
+.carousel:hover .image{
+    transform: scale(1.2) rotate(5deg) !important;
+}
+.carousel-caption{
+    color: #fff !important;
+    z-index: 17;
+    text-align: left !important;
+    transition: .9s !important;
+}
+
+.carousel-caption:hover{
+    padding-bottom: 30px;
+}
+.carousel-caption h1{
+    
+    font-weight: bold;
+
+}
+
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: linear-gradient(rgba(0,130,170,0),rgba(0,130,170,0),rgba(0,0,0,1));
+  }
+.news-card{
+    border-radius: 10px !important;
+    overflow: hidden;
+    padding: 0 !important;
+    height:60%;
+
+}
+.news-card:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: linear-gradient(rgba(0,130,170,0),rgba(0,130,170,0),rgba(0,0,0,1));
+  }
+  .news-card-caption{
+    transition: .9s !important;
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+      z-index: 1;
+      color: #fff;
+  }
+  .news-card-caption:hover{
+    padding-bottom: 30px;
+}
+.carousel-indicators button{
+    background: white !important;
+    z-index: 10;
+    padding:0 !important;
+    height:0 !important;
+}
+.news-card .image{
+  transition: .9s !important;
+}
+.news-card:hover .image{
+    transform: scale(1.1) rotate(5deg) !important;
+}
+
+
+
+.news-card-2{
+    border-radius: 10px !important;
+    overflow: hidden;
+    padding: 0 !important;
+    height:37%;
+    margin-top: 4%;
+
+}
+.news-card-2:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
+  }
+  .news-card-2 .news-card-caption{
+    transition: .9s !important;
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    z-index: 1;
+    color: #fff;
+  }
+  .news-card-2 .news-card-caption:hover{
+    padding-bottom: 30px;
+}
+.news-card-2 .image{
+  transition: .9s !important;
+}
+.news-card-2:hover .image{
+    transform: scale(1.1) rotate(5deg) !important;
+}
+.about-us-page .first-section .some-info p{
+    font-size:17px;
+}
+.about-us-page .first-section .some-info{
+    border-right: 1px solid #000 !important;
+}
+
+
+
+/*backgrounds*/
+.bg-primary-1{
+ background: rgba(236, 30, 36,1);
+}
+.bg-primary-80{
+ background: rgba(236, 30, 36,.8);
+}
+.bg-primary-50{
+ background: rgba(236, 30, 36,.5);
+}

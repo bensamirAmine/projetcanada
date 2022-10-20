@@ -1,0 +1,59 @@
+
+
+.services-cards-container a{
+    text-decoration: none;
+}
+
+.services-card{
+    border-radius: 15px !important;
+    color:#000;
+    height:150px;
+    transition: .5s;
+}
+.service-card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:150px;
+    
+}
+.service-card-content .see-more{
+    width:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff ;
+    
+    border-radius: 15px !important;
+    opacity: 0;
+    transition: 1s;
+}
+.service-card-icon-container{
+    height:100%;
+    display: flex;
+    align-items: center;
+    width:100px
+}
+.service-card-icon-container .icon{
+    font-size: 30px !important;
+}
+.services-card:hover{
+    background-color:#EC1E24;
+    color: #fff;
+    background: url('../public/leaf.png') #EC1E24 no-repeat center center scroll;
+}
+.services-card.selected{
+    background-color:#EC1E24;
+    color: #fff;
+    background: url('../public/leaf.png') #EC1E24 no-repeat center center scroll;
+}
+.services-card:hover .service-card-icon-container .icon{
+    transition: .9s;
+    
+    transform: rotateY(180deg);
+}
+.services-card:hover .see-more{
+    width:50px;
+    opacity: 1;
+    color: #000 !important;
+}
